@@ -107,7 +107,7 @@ function renderCurriculumGrid() {
             title: "Semestre 1",
             subjects: [
                 { name: "Fundamentos de Prog. y Pensamiento Computacional", obj: "Construir programas funcionales y depurables para resolver problemas.", cont: "Control flujo, funciones, debugging, unit tests inicio.", hots: "Analyze", hotsKey: 'analyze', linea: 'dev' },
-                { name: "Matemáticas para la Computación", obj: "Modelar problemas computacionales con herramientas matemáticas.", cont: "Lógica, funciones, matrices, complejidad.", hots: "Analyze", hotsKey: 'analyze', linea: 'math' },
+                { name: "Matemática Aplicada", obj: "Modelar problemas computacionales con herramientas matemáticas.", cont: "Lógica, funciones, matrices, complejidad.", hots: "Analyze", hotsKey: 'analyze', linea: 'math' },
                 { name: "Arquitectura de Computadores y SS.OO.", obj: "Explicar y diagnosticar desempeño de CPU/memoria/SO y seguridad.", cont: "Arquitectura, procesos, memoria, FS, CLI scripting.", hots: "Analyze", hotsKey: 'analyze', linea: 'infra' },
                 { name: "Fundamentos de Bases de Datos", obj: "Diseñar modelo relacional y operar datos con consultas/restricciones.", cont: "Modelamiento ER, normalización, SQL, transacciones intro.", hots: "Create", hotsKey: 'create', linea: 'data' },
                 { name: "Comunicación Técnica y Ética Profesional en TI", obj: "Comunicar decisiones técnicas y sostener criterios éticos.", cont: "Escritura técnica, documentación, dilemas éticos.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' }
@@ -116,21 +116,21 @@ function renderCurriculumGrid() {
         {
             title: "Semestre 2",
             subjects: [
-                { name: "Prog. Orientada a Objetos y Paradigmas", obj: "Diseñar soluciones OO mantenibles con reutilización y pruebas.", cont: "OO, principios SOLID intro, patrones básicos, unit testing.", hots: "Create", hotsKey: 'create', linea: 'dev' },
+                { name: "Paradigmas de Programación", obj: "Diseñar soluciones OO mantenibles con reutilización y pruebas.", cont: "OO, principios SOLID intro, patrones básicos, unit testing.", hots: "Create", hotsKey: 'create', linea: 'dev' },
                 { name: "Análisis y Diseño de Algoritmos", obj: "Comparar estrategias algorítmicas y seleccionar por costo/beneficio.", cont: "Estructuras base, complejidad, recursión, greedy/DP.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'dev' },
                 { name: "Redes e Infraestructura Digital", obj: "Configurar y diagnosticar redes básicas y documentar topologías.", cont: "TCP/IP, subnetting, routing, DNS/DHCP, troubleshooting.", hots: "Analyze", hotsKey: 'analyze', linea: 'infra' },
                 { name: "Álgebra Lineal y Estad. Descriptiva para TI", obj: "Aplicar herramientas y preparar insumos para análisis/GenAI.", cont: "Vectores/matrices, estadística descriptiva, visualización.", hots: "Analyze", hotsKey: 'analyze', linea: 'math' },
-                { name: "Ciberseguridad Fundamental", obj: "Identificar riesgos TI, aplicar controles, usar GenAI seguro.", cont: "CIA/riesgo, amenazas, hardening, seguridad de redes.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' }
+                { name: "Ciberseguridad", obj: "Identificar riesgos TI, aplicar controles, usar GenAI seguro.", cont: "CIA/riesgo, amenazas, hardening, seguridad de redes.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' }
             ]
         },
         {
             title: "Semestre 3",
             subjects: [
-                { name: "Desarrollo Full-Stack y Diseño de APIs", obj: "Entregar producto full-stack con APIs, QA y seguridad.", cont: "Web/app, APIs, auth, pruebas integración, API resilience.", hots: "Create", hotsKey: 'create', linea: 'dev' },
+                { name: "Desarrollo Full Stack", obj: "Entregar producto full-stack con APIs, QA y seguridad.", cont: "Web/app, APIs, auth, pruebas integración, API resilience.", hots: "Create", hotsKey: 'create', linea: 'dev' },
                 { name: "Probabilidad e Inferencia Estad. para TI", obj: "Diseñar inferencias y evaluar incertidumbre en decisiones.", cont: "Probabilidad, estimación, tests, experimentación, sesgos.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'math' },
                 { name: "Cloud Computing y DevOps", obj: "Desplegar servicios en cloud con CI/CD y observabilidad.", cont: "Virtualización/containers, CI/CD, IaC, deployment rollback.", hots: "Create", hotsKey: 'create', linea: 'infra' },
                 { name: "Análisis de Datos y Visualización", obj: "Construir flujo de análisis y comunicar con data storytelling.", cont: "ETL liviano, EDA, dashboards, storytelling, data quality.", hots: "Create", hotsKey: 'create', linea: 'data' },
-                { name: "Ingeniería de Software y Metodologías Ágiles", obj: "Gestionar delivery ágil garantizando Definition of Done (DoD).", cont: "Requerimientos, historias, arquitectura modular, QA plan.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' }
+                { name: "Ingeniería de Software", obj: "Gestionar delivery ágil garantizando Definition of Done (DoD).", cont: "Requerimientos, historias, arquitectura modular, QA plan.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' }
             ]
         },
         {
@@ -139,7 +139,7 @@ function renderCurriculumGrid() {
                 { name: "Machine Learning Aplicado", obj: "Entrenar modelos ML y justificar trade-off desempeño/riesgo.", cont: "Features, modelos supervisados, validación, overfitting.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'data' },
                 { name: "IA Generativa, LLMs y Sistemas Agénticos", obj: "Prototipar GenAI con prompting avanzado y evaluar outputs.", cont: "Prompt engineering, RAG, evaluación, alucinaciones.", hots: "Create", hotsKey: 'create', linea: 'data' },
                 { name: "IoT, Edge Comput. y Sistemas Distribuidos", obj: "Diseñar sistema distribuido simple y analizar tolerancia/fallos.", cont: "Arquitecturas, colas/eventos, edge, consistencia, latencia.", hots: "Analyze", hotsKey: 'analyze', linea: 'infra' },
-                { name: "Seguridad Avanzada y Auditoría de Sistemas", obj: "Auditar controles, ejecutar incident drill y plan continuidad.", cont: "Framework controles, hardening avanzado, SIEM intro, IR.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' },
+                { name: "Seguridad Avanzada", obj: "Auditar controles, ejecutar incident drill y plan continuidad.", cont: "Framework controles, hardening avanzado, SIEM intro, IR.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' },
                 { name: "IA, Ética, Regulación y Responsabilidad Prof.", obj: "Diseñar gobernanza básica IA justificando riesgos y privacidad.", cont: "Responsible AI, privacidad, sesgos, políticas, impacto.", hots: "Evaluate", hotsKey: 'evaluate', linea: 'eng' }
             ]
         }
