@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPE2028 | Ecosistemas de Aprendizaje</title>
+    <meta name="description"
+        content="Propuesta formativa CAPE2028: Transformación de los Ecosistemas de Aprendizaje para la Ingeniería en Informática.">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="logo-bar" style="width: 100%; background-color: #1A1A1A;">
+            <div
+                style="max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; height: 50px;">
+                <img src="https://www.duoc.cl/wp-content/uploads/2023/10/logo-duoc.svg" alt="Duoc UC Logo"
+                    style="height: 35px;">
+            </div>
+        </div>
+        <div class="nav-container">
+            <ul class="nav-menu" id="nav-tabs" role="tablist">
+                <li class="nav-item active" role="presentation">
+                    <button class="nav-btn active" id="tab-intro" data-target="content-intro" role="tab"
+                        aria-selected="true" aria-controls="content-intro">
+                        Contexto & Oportunidades
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-btn" id="tab-perfil" data-target="content-perfil" role="tab"
+                        aria-selected="false" aria-controls="content-perfil">
+                        Perfil & Malla
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-btn" id="tab-competencias" data-target="content-competencias" role="tab"
+                        aria-selected="false" aria-controls="content-competencias">
+                        Competencias de Orden Superior (HOTS, Bloom)
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-btn" id="tab-detalle" data-target="content-detalle" role="tab"
+                        aria-selected="false" aria-controls="content-detalle">
+                        Detalle Académico
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-btn" id="tab-anexos" data-target="content-anexos" role="tab"
+                        aria-selected="false" aria-controls="content-anexos">
+                        Anexos & Referencias
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <header class="top-header">
+            <div>
+                <span
+                    style="display: inline-block; background-color: var(--accent-blue, #005bb5); color: #ffffff; padding: 0.4rem 1rem; border-radius: 6px; font-size: 0.95rem; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 1.5rem; font-weight: 600;">
+                    Documento de trabajo - No representa una propuesta final u oficial
+                </span>
+                <h1 class="page-title">ESCUELA DE INFORMÁTICA Y TELECOMUNICACIONES</h1>
+                <p class="page-subtitle" style="margin-bottom: 0;">Propuesta Malla de Plan Común</p>
+                <p class="page-subtitle"
+                    style="font-weight: 700; color: var(--duoc-yellow); margin-top: 0; letter-spacing: 2px;">CAPE 2028
+                </p>
+            </div>
+        </header>
+
+        <div class="content-wrapper">
+            <!-- Tab: Contexto & Pilares -->
+            <section id="content-intro" class="tab-pane active" role="tabpanel" aria-labelledby="tab-intro">
+                <div class="hero-section">
+                    <div class="hero-text fade-in-up">
+                        <h2>Cambio de Paradigma</h2>
+                        <p class="lead">Para el profesional TIC, que enfrentará paradigmas tecnológicos completamente
+                            distintos en 2028, 2032 y 2036, la capacidad metacognitiva es más valiosa que cualquier
+                            habilidad técnica específica aprendida hoy. Y se desarrolla, exclusivamente, a través de la
+                            práctica reflexiva: haciendo, reflexionando sobre el hacer, y haciendo de nuevo con mayor
+                            conciencia.
+                            <br><span style="font-size: 0.85em; color: var(--text-muted, #94a3b8);">(WEF, OCDE, CEPAL,
+                                ONU, McKinsey)</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="section-block fade-in-up stagger-1 mb-4">
+                    <div class="expandable-text-container">
+                        <div class="section-header" style="margin-bottom: 0.5rem;">
+                            <h3>Nuestra oportunidad, nuestra responsabilidad</h3>
+                        </div>
+                        <div class="expandable-text line-clamp-8" id="text-oportunidad">
+                            <p>Más del 70% de las habilidades humanas son transferibles entre contextos automatizables y
+                                no automatizables, confirmando que el diferenciador del profesional TIC no reside en la
+                                ejecución técnica rutinaria, sino en la orquestación de flujos de trabajo humano-máquina
+                                y en la toma de decisiones estratégicas (MGI, 2025). América Latina y el Caribe acusa
+                                déficits persistentes en competencias digitales avanzadas, generando una desalineación
+                                estructural entre la oferta educativa
+                                y las necesidades reales del mercado que limita la absorción de la inversión tecnológica
+                                récord registrada en 2024. El fortalecimiento de las habilidades digitales de orden
+                                superior se vincula directamente con el proyecto y modelo educativo de Duoc UC y con los
+                                Objetivos de Desarrollo Sostenible definidos por los países de la ONU para el 2030:
+                                Educación de calidad, trabajo bien remunerado y pertinente e innovación e industria,
+                                posicionando la formación TIC avanzada como palanca de desarrollo económico inclusivo y
+                                no solo como respuesta a la demanda empresarial.</p>
+                            <p>La inteligencia artificial ha redefinido el trabajo técnico a una velocidad sin
+                                precedentes, Duoc UC tiene la oportunidad y la responsabilidad de formar arquitectos de
+                                sistemas inteligentes capaces de liderar la transformación digital de Chile y América
+                                Latina desde una base sólida, ética y profundamente humana. <strong>El plan común que se
+                                    propone para las 3 carreras de Ingeniería de la Escuela de Informática y
+                                    Telecomunicaciones</strong> de cuatro semestres es este cimiento, una base
+                                compartida que garantiza que cada estudiante de egresado de nuestra Escuela,
+                                independientemente de la especialización que elija después, llegue a ella con el
+                                pensamiento analítico, sistémico y crítico que ningún modelo de IA puede reemplazar, con
+                                la madurez matemática que sustenta el aprendizaje automático, con la conciencia ética
+                                que exige la gobernanza de datos y la ciberseguridad. "Cada uno de ellos con la
+                                capacidad metacognitiva de seguir aprendiendo cuando los paradigmas de hoy sean
+                                obsoletos mañana" (WEF, 2025; OCDE, 2025)</p>
+
+                            <h4
+                                style="margin-top: 1.5rem; margin-bottom: 1rem; color: var(--text-primary); font-family: var(--font-heading); font-size: 1.5rem;">
+                                Plan Común (modelo 4+4) y su impacto en la eficiencia operacional Escuela</h4>
+                            <ul
+                                style="padding-left: 1.5rem; color: var(--text-primary); font-size: 1.15rem; margin-bottom: 1rem;">
+                                <li style="margin-bottom: 0.5rem;"><strong>Economía de escala en la docencia.</strong>
+                                    Cuando todos los estudiantes del plan común comparten las mismas asignaturas durante
+                                    los primeros cuatro semestres, podemos concentrar los mejores docentes en las
+                                    asignaturas claves, con la certeza de que su impacto se multiplica sobre la
+                                    totalidad de la cohorte. El talento docente más valioso se invierte donde tiene
+                                    mayor impacto y creación de valor.</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>Uso eficiente de salas.</strong> Se obtiene
+                                    una gestión de salas, horarios y recursos
+                                    físicos significativamente más simple y a costos eficientes.</li>
+                                <li style="margin-bottom: 0.5rem;"><strong>Recursos de aprendizajes de mejor
+                                        calidad.</strong> Concentra a todos los estudiantes en cohortes de
+                                    mayor tamaño, lo que hace viable invertir en infraestructura de calidad (simplifica
+                                    el estándar de laboratorios, licencias de software, entornos cloud de práctica),
+                                    porque el costo se distribuye sobre una base mucho más amplia de estudiantes.</li>
+                                <li><strong>Reducción del riesgo de deserción temprana.</strong> Esa sensación de
+                                    desconexión entre lo que se estudia y la carrera que se eligió, y la sobrecarga
+                                    temprana de asignaturas técnicas especializadas antes de tener los fundamentos para
+                                    comprenderlas. Con la propuesta de asignaturas, el estudiante ve desde el primer
+                                    semestre el propósito de lo que aprende, porque las asignaturas están ancladas en
+                                    problemas reales, y la progresión está calibrada para construir confianza antes de
+                                    exigir abstracción compleja.</li>
+                            </ul>
+
+                            <h4
+                                style="margin-top: 1.5rem; margin-bottom: 1rem; color: var(--text-primary); font-family: var(--font-heading); font-size: 1.5rem;">
+                                Lo que ganan nuestros titulados</h4>
+                            <ul
+                                style="padding-left: 1.5rem; color: var(--text-primary); font-size: 1.15rem; margin-bottom: 1rem;">
+                                <li style="margin-bottom: 0.5rem;">El mercado de las TICs, demanda profesionales que
+                                    pueden comunicarse con fluidez a través de dominios distintos: el ingeniero de IA
+                                    que entiende suficiente de infraestructura cloud para desplegar sus propios modelos,
+                                    el desarrollador full-stack que comprende los fundamentos de ciberseguridad y los
+                                    incorpora en su código desde el diseño, el cientista de datos que puede leer un
+                                    dashboard de datos y extraer conclusiones estratégicas, el especialista en
+                                    ciberseguridad que es capaz de operar en cualquier dominio que se requiera. Modelo
+                                    en "T" (WEF, 2025).</li>
+                                <li><strong>Transferencia cognitiva.</strong> El estudiante que aprende a programar en
+                                    el contexto del plan común, no está simplemente aprendiendo Python o Java: está
+                                    desarrollando una forma de pensar sobre problemas que luego transferirá a su
+                                    especialización, cualquiera que sea. Cuando aprende estadística, no está acumulando
+                                    un módulo de conocimiento aislado: está construyendo la base matemática que le
+                                    permitirá luego entender machine learning con verdadera profundidad, y en su
+                                    especialización le permitirá ir más allá de las herramientas y comprender por qué
+                                    funcionan.</li>
+                            </ul>
+
+                            <p>Finalmente, hay una ventaja de eficiencia que opera a nivel institucional y que tiene que
+                                ver con la velocidad a la que cambia el campo. Las especializaciones en TIC deben
+                                actualizarse con una frecuencia que ninguna otra disciplina exige: lo que hoy es una
+                                especialización en desarrollo móvil puede ser irrelevante en tres años, y lo que hoy no
+                                existe como especialización —como la ingeniería de sistemas agénticos— puede ser el
+                                perfil más demandado en 2028.</p>
+                            <p>Un modelo con plan común de cuatro semestres permite que la institución actualice sus
+                                especializaciones con relativa agilidad, porque solo debe rediseñar los últimos cuatro
+                                semestres cuando el mercado cambia, no toda la carrera. El plan común, que está anclado
+                                en fundamentos que cambian lentamente (algoritmos, la arquitectura de computadores, los
+                                principios de redes, la estadística, la ética profesional), actúa como un núcleo estable
+                                desde el cual la institución puede pivotear sus especializaciones sin perder coherencia
+                                ni continuidad.</p>
+                            <p>Esta capacidad de adaptación no es un lujo en el contexto TIC actual; es una condición
+                                vital institucional. Y el modelo 4+4 la hace posible de una manera que los diseños
+                                curriculares integrados o de especialización temprana simplemente no pueden replicar con
+                                la misma eficiencia.</p>
+                        </div>
+                        <button class="btn-read-more" id="btn-oportunidad">Leer más</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Competencias de Orden Superior -->
+            <section id="content-competencias" class="tab-pane d-none" role="tabpanel"
+                aria-labelledby="tab-competencias">
+
+                <div style="max-width: 900px; margin: 0 auto 3rem auto; text-align: center;">
+                    <h4 style="font-size: 1.5rem; color: var(--text-primary); margin-bottom: 0.5rem;">Convertir la
+                        experiencia en aprendizaje transferible</h4>
+                    <p style="font-size: 1.15rem; color: var(--text-secondary); line-height: 1.7;">Nuestros estudiantes,
+                        enfrentarán paradigmas tecnológicos completamente distintos en 2028, 2032 y 2036, queremos
+                        desarrollar en ellos la capacidad metacognitiva, capacidad más valiosa que cualquier habilidad
+                        técnica específica aprendida durante su proceso formativo.</p>
+                </div>
+
+                <div class="section-block fade-in-up stagger-1">
+                    <div class="section-header">
+                        <span class="section-number">I.</span>
+                        <h3>Competencias de Orden Superior</h3>
+                    </div>
+                    <p class="section-desc"
+                        style="max-width: 100%; font-size: 1.15rem; color: var(--text-primary); margin-bottom: 2rem;">En
+                        conjunto, estas cuatro competencias definen al arquitecto de sistemas inteligentes que el
+                        mercado TIC 2030 demanda: alguien que no solo construye tecnología, sino que comprende sus
+                        consecuencias, las evalúa con rigor y se reinventa cuantas veces el contexto lo exija.</p>
+
+                    <div class="competencias-layout">
+                        <!-- Lado izquierdo: Metacognición -->
+                        <div class="comp-left">
+                            <div class="card-icon"
+                                style="background: transparent; border-radius: 0; width: auto; height: auto; margin-bottom: 1.5rem;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z">
+                                    </path>
+                                    <path d="M12 16v-4"></path>
+                                    <path d="M12 8h.01"></path>
+                                    <path d="M2 12h2"></path>
+                                    <path d="M20 12h2"></path>
+                                </svg>
+                            </div>
+                            <h4>Metacognición</h4>
+                            <h4>y Aprendizaje Continuo</h4>
+                            <div class="dim-title">Dimensión metacognitiva (Bloom revisado)</div>
+                            <p>Dado que los paradigmas de hoy serán parcialmente obsoletos en 2028, es la competencia
+                                que
+                                sostiene a las otras en el tiempo: la capacidad de monitorear el propio pensamiento,
+                                reconocer límites y aprender convierte la experiencia acumulada en criterio profesional
+                                genuino.</p>
+                        </div>
+
+                        <!-- Lado derecho: Las otras tres competencias -->
+                        <div class="comp-right">
+
+                            <!-- 1. Pensamiento Sistémico -->
+                            <div class="comp-right-item">
+                                <div class="comp-right-item-header">
+                                    <div class="comp-right-item-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                            <polyline points="2 17 12 22 22 17"></polyline>
+                                            <polyline points="2 12 12 17 22 12"></polyline>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Pensamiento Sistémico y Resolución de Problemas Complejos</h4>
+                                    </div>
+                                </div>
+                                <div class="dim-title">Analizar (Bloom L4)</div>
+                                <p>El profesional TIC 2030 enfrenta sistemas de creciente complejidad que no puede
+                                    resolver
+                                    de forma lineal, por lo que le permiten descomponer interdependencias entre código,
+                                    infraestructura, datos y ecosistema organizacional para identificar causas raíz
+                                    donde
+                                    otros solo ven síntomas.</p>
+                            </div>
+
+                            <!-- 2. Comunicación Estratégica -->
+                            <div class="comp-right-item">
+                                <div class="comp-right-item-header">
+                                    <div class="comp-right-item-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="9" cy="7" r="4"></circle>
+                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Comunicación Estratégica y Liderazgo de Procesos</h4>
+                                    </div>
+                                </div>
+                                <div class="dim-title">Evaluar (Bloom L5)</div>
+                                <p>Sobre esa capacidad analítica construye su juicio: le exigen ponderar criterios en
+                                    tensión —costo, escalabilidad, impacto humano, viabilidad regulatoria— y defender
+                                    decisiones fundamentadas ante equipos técnicos, clientes y directivos, traduciendo
+                                    complejidad técnica en valor comprensible.</p>
+                            </div>
+
+                            <!-- 3. Razonamiento Ético -->
+                            <div class="comp-right-item">
+                                <div class="comp-right-item-header">
+                                    <div class="comp-right-item-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h4>Razonamiento Ético Aplicado</h4>
+                                    </div>
+                                </div>
+                                <div class="dim-title">Evaluar y Crear (Bloom L5–L6)</div>
+                                <p>Cuando la decisión involucra sistemas de IA o datos, el razonamiento ético no opera
+                                    como
+                                    un freno externo sino como restricción de diseño. El profesional diseña soluciones
+                                    simultáneamente funcionales, regulatoriamente defensibles y éticamente
+                                    justificables,
+                                    sin sacrificar ninguna dimensión.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Perfil & Malla -->
+            <section id="content-perfil" class="tab-pane d-none" role="tabpanel" aria-labelledby="tab-perfil">
+
+                <div class="section-block">
+                    <div class="section-header">
+                        <span class="section-number">II.</span>
+                        <h3>Malla Curricular Propuesta</h3>
+                    </div>
+                    <p class="section-desc">Plan Común (4 Semestres)</p>
+                    <div id="curriculum-legends" class="curriculum-legends">
+                        <!-- Generado dinámicamente vía script.js -->
+                    </div>
+
+                    <div id="curriculum-grid" class="curriculum-grid">
+                        <!-- Generado dinámicamente vía script.js -->
+                    </div>
+                </div>
+
+                <div class="section-block mt-4">
+                    <div class="section-header">
+                        <span class="section-number">III.</span>
+                        <h3>Perfil de Egreso: Estratega Tecnológico</h3>
+                    </div>
+                    <p class="section-desc">El análisis del perfil revela una coherencia estructural profunda,
+                        asegurando que cada competencia declarada sea construida incrementalmente a lo largo de los 4
+                        semestres del Plan Común.</p>
+
+                    <ul class="timeline">
+                        <li class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Agilidad de Aprendizaje y Metacognición</h4>
+                                <p>Capacidad para desaprender marcos obsoletos y dominar nuevas arquitecturas
+                                    tecnológicas (IA Agéntica, DevOps). Nace en Pensamiento Computacional (S1) y se
+                                    refuerza en Paradigmas de Programación (S2).</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Narrativa de Datos e Influencia Estratégica</h4>
+                                <p>Habilidad para realizar sense-making de datos complejos y comunicar soluciones
+                                    técnicas. Se desarrolla técnicamente en Análisis Estadístico (S3) y se
+                                    operacionaliza en Ingeniería de Software y UX (S3).</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Gestión de la Ambigüedad y Riesgo</h4>
+                                <p>Capacidad para tomar decisiones en entornos de incertidumbre. Se fundamenta en
+                                    Probabilidad y Estadística (S1) y alcanza su madurez en Gestión Ágil, Innovación y
+                                    Riesgos (S3).</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Visión Ecosistémica y Pensamiento Sistémico</h4>
+                                <p>Comprensión integral de la infraestructura tecnológica. Se construye desde Estructura
+                                    de Computadores (S1) y Redes (S2), culminando en Tecnologías Cloud (S3) y IoT (S4).
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Tab: Detalle Académico -->
+            <section id="content-detalle" class="tab-pane d-none" role="tabpanel" aria-labelledby="tab-detalle">
+                <div class="section-block">
+                    <div class="section-header mb-4">
+                        <span class="section-number">IV.</span>
+                        <h3>Detalle de Asignaturas</h3>
+                    </div>
+
+                    <style>
+                        .academic-table {
+                            width: 100%;
+                            border-collapse: collapse;
+                            margin-bottom: 2rem;
+                            background: var(--bg-surface);
+                            font-size: 0.95rem;
+                        }
+
+                        .academic-table th {
+                            background-color: var(--bg-base);
+                            color: var(--text-primary);
+                            font-weight: 700;
+                            text-align: left;
+                            padding: 1rem;
+                            border-bottom: 2px solid var(--border-color);
+                        }
+
+                        .academic-table td {
+                            padding: 1rem;
+                            border-bottom: 1px solid var(--border-color);
+                            color: var(--text-secondary);
+                            vertical-align: top;
+                        }
+
+                        .academic-table tr:last-child td {
+                            border-bottom: none;
+                        }
+
+                        .academic-table .subject-name {
+                            color: var(--text-primary);
+                            font-weight: 600;
+                            width: 22%;
+                        }
+
+                        .academic-table .hots-badge {
+                            display: inline-block;
+                            padding: 0.25rem 0.6rem;
+                            border-radius: 4px;
+                            font-size: 0.8rem;
+                            font-weight: 600;
+                            background-color: var(--bg-surface-hover);
+                            border: 1px solid var(--border-color);
+                            color: var(--text-primary);
+                        }
+                    </style>
+
+                    <h4 style="margin-bottom: 1rem; color: var(--text-primary);">Resultados de aprendizaje, contenidos y
+                        HOTS por asignatura</h4>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">Criterio HOTS (Bloom revisado): Se
+                        usa Bloom revisado (Anderson & Krathwohl) con los procesos cognitivos
+                        “remember/understand/apply/analyze/evaluate/create”, donde Analyze/Evaluate/Create operan como
+                        HOTS para el perfil TIC (diagnóstico, trade-offs, diseño, auditoría, construcción de
+                        soluciones).</p>
+
+                    <div style="overflow-x: auto;">
+                        <table class="academic-table">
+                            <thead>
+                                <tr>
+                                    <th>Asignatura</th>
+                                    <th>Objetivo (RA)</th>
+                                    <th>Contenidos clave</th>
+                                    <th>HOTS dominante</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- S1 -->
+                                <tr>
+                                    <td class="subject-name">Fundamentos de Prog. y Pensamiento Computacional
+                                    </td>
+                                    <td>Construir programas funcionales y depurables para resolver problemas,
+                                        justificando decisiones básicas.</td>
+                                    <td>Control de flujo; funciones; estructuras básicas; debugging; pruebas básicas;
+                                        control de versiones inicial.</td>
+                                    <td><span class="hots-badge">Analyze</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Matemáticas para la Computación</td>
+                                    <td>Modelar problemas computacionales con herramientas matemáticas y validar
+                                        resultados.</td>
+                                    <td>Lógica/funciones; matrices básicas; modelamiento; complejidad/intución formal.
+                                    </td>
+                                    <td><span class="hots-badge">Analyze</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Arquitectura de Computadores y SS.OO.</td>
+                                    <td>Explicar y diagnosticar cómo CPU/memoria/SO afectan desempeño y seguridad básica
+                                        de ejecución.</td>
+                                    <td>Arquitectura; procesos/hilos; memoria; FS; permisos; CLI y scripting intro.</td>
+                                    <td><span class="hots-badge">Analyze</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Fundamentos de Bases de Datos</td>
+                                    <td>Diseñar un modelo relacional y operar datos con consultas y restricciones,
+                                        cuidando calidad y consistencia.</td>
+                                    <td>Modelamiento ER; normalización; SQL; integridad; transacciones intro; calidad de
+                                        datos.</td>
+                                    <td><span class="hots-badge">Create</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Comunicación Técnica y Ética Profesional en TI</td>
+                                    <td>Comunicar decisiones técnicas y sostener criterios éticos/profesionales en
+                                        escenarios TI.</td>
+                                    <td>Escritura técnica; presentaciones; documentación ejecutiva; dilemas éticos;
+                                        privacidad; responsabilidad profesional.</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                                <!-- S2 -->
+                                <tr>
+                                    <td class="subject-name">Prog. Orientada a Objetos y Paradigmas</td>
+                                    <td>Diseñar soluciones OO mantenibles con reutilización y pruebas unitarias.</td>
+                                    <td>OO (encapsulación/composición); principios SOLID intro; patrones básicos; unit
+                                        testing.</td>
+                                    <td><span class="hots-badge">Create</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Análisis y Diseño de Algoritmos</td>
+                                    <td>Comparar estrategias algorítmicas y seleccionar la más adecuada con base en
+                                        costo/beneficio.</td>
+                                    <td>Estructuras/algoritmos base; complejidad; recursión; greedy/DP intro;
+                                        benchmarking.</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Redes e Infraestructura Digital</td>
+                                    <td>Configurar y diagnosticar redes básicas y documentar topologías.</td>
+                                    <td>TCP/IP; subnetting; routing/switching intro; DNS/DHCP; troubleshooting;
+                                        documentación de red.</td>
+                                    <td><span class="hots-badge">Analyze</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Álgebra Lineal y Estad. Descriptiva para TI</td>
+                                    <td>Aplicar herramientas cuantitativas para describir datos y preparar insumos
+                                        seguros para análisis/GenAI.</td>
+                                    <td>Vectores/matrices; estadística descriptiva; visualización básica;
+                                        limpieza/anonimización simple (unidad microcredencial).</td>
+                                    <td><span class="hots-badge">Analyze</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Ciberseguridad Fundamental</td>
+                                    <td>Identificar riesgos TI y aplicar controles básicos; ejecutar prácticas
+                                        responsables de uso de GenAI como AI User.</td>
+                                    <td>CIA/riesgo; amenazas comunes; hardening básico; seguridad en redes;
+                                        (microcredencial).</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                                <!-- S3 -->
+                                <tr>
+                                    <td class="subject-name">Desarrollo Full-Stack y Diseño de APIs</td>
+                                    <td>Entregar un producto full-stack con APIs, aplicando gates mínimos de
+                                        testing/calidad y seguridad básica.</td>
+                                    <td>Web/app; APIs; auth básica; manejo de errores; pruebas unit/integración;
+                                        resiliencia API; secure-by-default mínimo.</td>
+                                    <td><span class="hots-badge">Create</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Probabilidad e Inferencia Estad. para TI</td>
+                                    <td>Diseñar inferencias simples y evaluar incertidumbre para decisiones basadas en
+                                        datos.</td>
+                                    <td>Probabilidad; estimación; intervalos; tests; experimentación; sesgos.</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Cloud Computing y DevOps</td>
+                                    <td>Desplegar y operar servicios en cloud con CI/CD y observabilidad básica;
+                                        ejecutar un incident drill operacional.</td>
+                                    <td>Virtualización/containers; CI/CD; IaC intro; logging/metrics; despliegue;
+                                        rollback; incident drill (triage + SITREP).</td>
+                                    <td><span class="hots-badge">Create</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Análisis de Datos y Visualización</td>
+                                    <td>Construir un flujo básico de análisis y comunicar hallazgos accionables con
+                                        visualización.</td>
+                                    <td>ETL liviano; EDA; dashboards; storytelling; data quality; métricas.</td>
+                                    <td><span class="hots-badge">Create</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Ingeniería de Software y Metodologías Ágiles</td>
+                                    <td>Gestionar delivery ágil y asegurar Definition of Done con QA/Testing como
+                                        condición de aceptación.</td>
+                                    <td>Requerimientos; historias; arquitectura modular; Scrum/Kanban; planificación de
+                                        pruebas; code review; DoD.</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                                <!-- S4 -->
+                                <tr>
+                                    <td class="subject-name">Machine Learning Aplicado</td>
+                                    <td>Entrenar y evaluar modelos ML básicos y justificar el trade-off entre desempeño,
+                                        riesgo y mantenibilidad.</td>
+                                    <td>Features; modelos supervisados; validación; métricas; overfitting;
+                                        explicabilidad intro.</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">IA Generativa, LLMs y Sistemas Agénticos</td>
+                                    <td>Construir prototipos GenAI con prompting avanzado y evaluación de outputs;
+                                        reconocer límites y riesgos.</td>
+                                    <td>Prompt engineering; RAG intro; evaluación de outputs; alucinaciones; guardrails;
+                                        seguridad/ética aplicada.</td>
+                                    <td><span class="hots-badge">Create</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">IoT, Edge Comput. y Sistemas Distribuidos</td>
+                                    <td>Diseñar un sistema distribuido simple y analizar fallos/consistencia/latencia.
+                                    </td>
+                                    <td>Arquitecturas; colas/eventos; edge; tolerancia a fallas; consistencia;
+                                        observabilidad.</td>
+                                    <td><span class="hots-badge">Analyze</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Seguridad Avanzada y Auditoría de Sistemas</td>
+                                    <td>Auditar controles y evidencias; ejecutar incident drill completo con reporte
+                                        ejecutivo y plan de continuidad actualizado.</td>
+                                    <td>Framework de controles; evidencia; hardening avanzado; logging/SIEM intro; IR
+                                        end-to-end; post-mortem.</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">IA, Ética, Regulación y Responsabilidad Prof.</td>
+                                    <td>Diseñar gobernanza básica para IA/GenAI y justificar decisiones con criterios de
+                                        riesgo, privacidad y ética.</td>
+                                    <td>Responsible AI; privacidad; sesgos; gobernanza; políticas de uso; evaluación de
+                                        impacto.</td>
+                                    <td><span class="hots-badge">Evaluate</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h4 style="margin-top: 3rem; margin-bottom: 1rem; color: var(--text-primary);">Competencia objetivo
+                        por líneas formativas al finalizar S4</h4>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">Esta tabla no “especializa” todavía
+                        (la especialización formal es desde S5), pero fija una competencia objetivo alcanzable al cierre
+                        de S4 que habilite itinerarios de especialidad con bajo retrabajo. El “nivel de desempeño” se
+                        expresa como Operativo base / Operativo sólido / Pre-especialista, y puede mapearse internamente
+                        a “primeros niveles de proficiency” del marco.</p>
+
+                    <div style="overflow-x: auto;">
+                        <table class="academic-table">
+                            <thead>
+                                <tr>
+                                    <th>Línea formativa</th>
+                                    <th>Competencia objetivo al finalizar S4</th>
+                                    <th>HOTS asociados</th>
+                                    <th>Nivel de desempeño esperado</th>
+                                    <th>Evidencia mínima (portafolio)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="subject-name">Desarrollo de software</td>
+                                    <td>Entregar un producto full-stack con APIs y QA/Testing gateado (tests + coverage
+                                        interpretado + seguridad mínima).</td>
+                                    <td>Create, Evaluate</td>
+                                    <td>Operativo sólido</td>
+                                    <td>Repo con CI; suite de tests; reporte coverage; release notes; checklist de
+                                        seguridad.</td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Redes y conectividad</td>
+                                    <td>Diseñar y configurar una red básica documentada, diagnosticando fallos y
+                                        justificando decisiones de topología.</td>
+                                    <td>Analyze, Evaluate</td>
+                                    <td>Operativo base</td>
+                                    <td>Topología + documentación; checklist troubleshooting; evidencias de
+                                        configuración.</td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Cloud</td>
+                                    <td>Desplegar servicios contenerizados con CI/CD y observabilidad; operar rollback y
+                                        responder a incidentes iniciales (triage).</td>
+                                    <td>Create, Analyze</td>
+                                    <td>Operativo sólido</td>
+                                    <td>Pipeline CI/CD; IaC/manifest; tablero observabilidad; runbook.</td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Ciberseguridad</td>
+                                    <td>Ejecutar un ciclo IR end-to-end con evidencias: triage, SITREPs, reporte final y
+                                        actualización de continuidad; auditar controles básicos.</td>
+                                    <td>Analyze, Evaluate</td>
+                                    <td>Pre-especialista (base)</td>
+                                    <td>Playbook; timeline; reporte ejecutivo; “audit pack” de evidencias.</td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">IA</td>
+                                    <td>Entrenar y evaluar modelos ML básicos y construir un prototipo GenAI (prompting
+                                        + evaluación de output) con consideraciones de riesgo.</td>
+                                    <td>Evaluate, Create</td>
+                                    <td>Operativo base</td>
+                                    <td>Notebook ML con métricas; prototipo GenAI con evaluación; registro de riesgos.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Cientista de datos</td>
+                                    <td>Desarrollar análisis con visualización accionable, interpretando incertidumbre e
+                                        identificando sesgos/limitaciones.</td>
+                                    <td>Analyze, Evaluate</td>
+                                    <td>Operativo base</td>
+                                    <td>EDA + dashboard; storytelling; informe con limitaciones y supuestos.</td>
+                                </tr>
+                                <tr>
+                                    <td class="subject-name">Ingeniero de datos</td>
+                                    <td>Construir un flujo de datos reproducible (ETL liviano) con controles básicos de
+                                        calidad y trazabilidad.</td>
+                                    <td>Create, Analyze</td>
+                                    <td>Operativo base</td>
+                                    <td>Pipeline reproducible; data quality checks; diccionario de datos.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- Tab: Anexos & Referencias -->
+            <section id="content-anexos" class="tab-pane d-none" role="tabpanel" aria-labelledby="tab-anexos">
+                <div class="section-block">
+                    <div class="section-header">
+                        <h3>ANEXO: Competencias de Orden Superior (HOTS)</h3>
+                    </div>
+
+                    <div class="hots-grid mt-4">
+                        <div class="hots-item">
+                            <div class="hots-number">1</div>
+                            <h4>Definición y Fundamentación</h4>
+                            <p>Las Competencias (HOTS) representan los niveles de análisis, evaluación y creación de la
+                                Taxonomía de Bloom. Se activan ante problemas "perversos" que requieren integración de
+                                múltiples dominios (OECD, 2023). En ingeniería, permiten a los humanos realizar la
+                                Orquestación.</p>
+                        </div>
+
+                        <div class="hots-item">
+                            <div class="hots-number">2</div>
+                            <h4>Investigación: Era Agéntica</h4>
+                            <div class="sub-hots">
+                                <h5>2.1 Capacidad Analítica</h5>
+                                <p>Descomposición de sistemas complejos. Permite discernir entre la "alucinación" de IA
+                                    y resultados veraces.</p>
+
+                                <h5>2.2 Resolución de Problemas Complejos</h5>
+                                <p>Gestión de la Ambigüedad cuando los datos son contradictorios o incompletos.</p>
+
+                                <h5>2.3 Pensamiento Sistémico</h5>
+                                <p>Ver el "todo" antes que las partes. Decisiones en capas inferiores afectan
+                                    infraestructuras globales superiores.</p>
+
+                                <h5>2.4 Pensamiento Computacional</h5>
+                                <p>La "alfabetización del siglo XXI", esencial para interactuar con arquitecturas de IA
+                                    Agéntica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-block mt-5">
+                    <div class="section-header">
+                        <h3>Referencias Internacionales</h3>
+                    </div>
+                    <ul class="references-list">
+                        <li>ACM/IEEE-CS/AAAI. (2024). Computer Science Curricula 2023. <a
+                                href="https://dl.acm.org/doi/10.1145/3664191"
+                                target="_blank">https://dl.acm.org/doi/10.1145/3664191</a></li>
+                        <li>CEPAL. (2024). Educación y desarrollo de competencias digitales en América Latina y el
+                            Caribe. Comisión Económica para América Latina y el Caribe. <a
+                                href="https://repositorio.cepal.org/handle/11362/70081"
+                                target="_blank">https://repositorio.cepal.org/handle/11362/70081</a></li>
+                        <li>CEPAL. (2025). La inversión extranjera directa en América Latina y el Caribe 2025: Claves de
+                            la CEPAL para el desarrollo N°24. Comisión Económica para América Latina y el Caribe. <a
+                                href="https://www.cepal.org/es/publicaciones/69877"
+                                target="_blank">https://www.cepal.org/es/publicaciones/69877</a></li>
+                        <li>Gartner. (2025). Top Strategic Technology Trends for 2026 and Beyond. <a
+                                href="https://www.gartner.com/en/articles/top-technology-trends-2026"
+                                target="_blank">https://www.gartner.com/...</a></li>
+                        <li>IMDA. Skills Framework for Infocomm Technology (SFw for ICT). Infocomm Media Development
+                            Authority. <a
+                                href="https://www.imda.gov.sg/how-we-can-help/techskills-accelerator-tesa/skills-framework-for-infocomm-technology-sfw-for-ict"
+                                target="_blank">https://www.imda.gov.sg/...</a></li>
+                        <li>Mattessich, R. (1982). The systems approach.</li>
+                        <li>McKinsey Global Institute. (2024). A new future of work: The race to deploy AI and raise
+                            skills in Europe and beyond. McKinsey & Company. <a
+                                href="https://www.mckinsey.com/mgi/our-research/a-new-future-of-work-the-race-to-deploy-ai-and-raise-skills"
+                                target="_blank">https://www.mckinsey.com/mgi/...</a></li>
+                        <li>McKinsey Global Institute. (2025). Agents, robots, and us: Skill partnerships in the age of
+                            AI. McKinsey & Company. <a
+                                href="https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai"
+                                target="_blank">https://www.mckinsey.com/mgi/...</a></li>
+                        <li>MIT Professional Education. (2026). Data Leadership and Storytelling Framework.</li>
+                        <li>OCDE. (2024). Building competencies for digital and green innovation in higher education.
+                            OECD Publishing. <a href="https://doi.org/10.1787/d3869c1f-en"
+                                target="_blank">https://doi.org/10.1787/d3869c1f-en</a></li>
+                        <li>OCDE. (2025). OECD Skills Outlook 2025: Widening opportunities by investing in 21st-century
+                            skills. OECD Publishing. <a href="https://doi.org/10.1787/ac37c7d4-en"
+                                target="_blank">https://doi.org/10.1787/ac37c7d4-en</a></li>
+                        <li>OECD. (2023). Learning Compass 2030. <a
+                                href="https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html"
+                                target="_blank">https://www.oecd.org/...</a></li>
+                        <li>ONU. (2024). Global Digital Compact. Organización de las Naciones Unidas. <a
+                                href="https://www.un.org/techenvoy/global-digital-compact"
+                                target="_blank">https://www.un.org/techenvoy/global-digital-compact</a></li>
+                        <li>Stanford University. (2025). MS&E Program Requirements.</li>
+                        <li>WEF. (2025). The Future of Jobs Report 2025. World Economic Forum. <a
+                                href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+                                target="_blank">https://www.weforum.org/...</a></li>
+                        <li>WEF. (2026). Invest in the workforce for the AI age: A blueprint for scale, skills, and
+                            responsible growth. World Economic Forum. <a
+                                href="https://www.weforum.org/reports/invest-in-the-workforce-for-the-ai-age/"
+                                target="_blank">https://www.weforum.org/...</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
